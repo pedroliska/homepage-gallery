@@ -1,0 +1,5 @@
+The picture will be fitted in square with a max size of 1000px (width) 
+by 850px (height). 
+
+If the pics are too big, resize them with the PLiska image resizer and
+a max dimension of 1000px.
