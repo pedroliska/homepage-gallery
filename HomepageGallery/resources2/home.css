@@ -115,8 +115,8 @@ div {
 .rounded {
     background-color: #000;
     padding: 15px;
-    //-webkit-border-radius: 20px 0 20px 0; /* Chrome */
-    //-moz-border-radius: 0 0 20px 0; /* Firefox */
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
 }
 
 #menu ul {

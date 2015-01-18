@@ -45,27 +45,12 @@ $(document).ready(function () {
         }
     });
 
-    // The method call below makes this function exit in IE, so keep
-    // the call at the very bottom.
-    initCorners();
-
 });
 
 $(window).resize(function () {
     VerticalAdjust();
 
 });
-
-function initCorners() {
-    var settings = {
-        tl: { radius: 20 },
-        tr: { radius: 0 },
-        bl: { radius: 0 },
-        br: { radius: 20 },
-        antiAlias: true
-    }
-    curvyCorners(settings, ".rounded");
-}
 
 function loadImage(next) {
 

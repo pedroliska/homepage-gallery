@@ -11,7 +11,6 @@
     var imageIndex = <%= new Random().Next(this.fileNames.Length) %>;
   </script>
   <script src="resources2/home.js" type="text/javascript"></script>
-  <script src="resources2/curvycorners.js" type="text/javascript"></script>
 </head>
 <body>
   <div id="canvas">
