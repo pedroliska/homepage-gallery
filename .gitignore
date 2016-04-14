@@ -1,2 +1,4 @@
 /HomepageGallery/web.config
 *.suo
+
+.vs/config/applicationhost.config
